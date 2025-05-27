@@ -83,4 +83,5 @@ Email: giuseppegue00@gmail.com
 
 LinkedIn: www.linkedin.com/in/giuseppe-guerrera-139858320
 
-Portfolio: giuseppeguerrera.com
+Portfolio: [giuseppeguerrera.com](https://giuseppeguerrera.com/)
+
