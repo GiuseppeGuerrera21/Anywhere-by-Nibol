@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Auth UI - Next.js Frontend
 
-## Getting Started
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Next.js](https://img.shields.io/badge/Next.js-13+-black?logo=next.js)](https://nextjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.0+-06B6D4?logo=tailwind-css)](https://tailwindcss.com/)
 
-First, run the development server:
+Un'interfaccia utente moderna e responsive per autenticazione, con schermate di **Login** e **Registrazione**, sviluppata con Next.js e Tailwind CSS.
 
-```bash
+⚠️ **Nota**: Questo è un progetto puramente frontend senza logica di backend o connessione a database.
+
+## ✨ Funzionalità
+
+- Design moderno e pulito
+- Completamente responsive
+- Validazione lato client dei form
+- Facilmente estendibile
+
+## 🚀 Come iniziare
+
+### Prerequisiti
+- React ^19.0.0
+- Next ^15.3.2
+
+### Installazione
+
+1. **Clona il repository**:
+   ```bash
+   git clone git@github.com:GiuseppeGuerrera21/Anywhere-by-Nibol.git
+Accedi alla cartella del progetto:
+
+bash
+cd Anywhere-by-Nibol
+Installa le dipendenze:
+
+bash
+npm install
+Avvia il server di sviluppo:
+
+bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Apri nel browser:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+http://localhost:3000
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📂 Struttura del progetto
+root/
+├── .next/                        # Cartella generata automaticamente da Next.js (build/cache)
+├── app/                          # Directory principale delle route (Next.js App Router)
+│   ├── login/
+│   │   └── page.jsx              # Pagina per la route "/login"
+│   ├── signup/
+│   │   └── page.jsx              # Pagina per la route "/signup"
+│   ├── globals.css               # Foglio di stile globale (forse solo per la signup?)
+│   └── layout.js                 # Layout per la route "/signup" (wrapper comune)
+│   └── page.jsx                  # Probabile home page ("/")
+├── components/                   # Componenti riutilizzabili dell'interfaccia
+│   ├── AuthForm.jsx
+│   ├── InputField.jsx
+│   ├── PasswordStrengthBar.jsx
+│   ├── SuccessModal.jsx
+│   └── TermsCheckbox.jsx
+├── node_modules/                # Dipendenze npm installate
+├── public/                      # File statici accessibili pubblicamente
+│   └── favicon.png
+├── .gitignore                   # File per ignorare file/folder nel versionamento Git
+├── eslint.config.mjs           # Configurazione ESLint per il linting del codice
+├── jsconfig.json               # Configurazione per alias o suggerimenti JS/TS
+├── next.config.mjs             # Configurazione di Next.js
+├── package-lock.json           # Lockfile per la gestione delle versioni dei pacchetti
+└── package.json                # File principale delle dipendenze e script del progetto
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+📜 Licenza
+Distribuito con licenza MIT. Vedi LICENSE per maggiori informazioni.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+✉️ Contatti
+Giuseppe Guerrera
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+GitHub: GiuseppeGuerrera21
 
-## Deploy on Vercel
+Email: giuseppegue00@gmail.com
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+LinkedIn: www.linkedin.com/in/giuseppe-guerrera-139858320
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Portfolio: giuseppeguerrera.com
