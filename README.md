@@ -8,14 +8,14 @@ Un'interfaccia utente moderna e responsive per autenticazione, con schermate di 
 
 ⚠️ **Nota**: Questo è un progetto puramente frontend senza logica di backend o connessione a database.
 
-## ✨ Funzionalità
+## Funzionalità
 
 - Design moderno e pulito
 - Completamente responsive
 - Validazione lato client dei form
 - Facilmente estendibile
 
-## 🚀 Come iniziare
+## Come iniziare
 
 ### Prerequisiti
 - React ^19.0.0
@@ -77,8 +77,6 @@ Distribuito con licenza MIT. Vedi LICENSE per maggiori informazioni.
 
 ✉️ Contatti
 Giuseppe Guerrera
-
-GitHub: GiuseppeGuerrera21
 
 Email: giuseppegue00@gmail.com
 
