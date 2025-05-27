@@ -44,6 +44,7 @@ http://localhost:3000
 
 
 📂 Struttura del progetto
+```
 root/
 ├── .next/                        # Cartella generata automaticamente da Next.js (build/cache)
 ├── app/                          # Directory principale delle route (Next.js App Router)
