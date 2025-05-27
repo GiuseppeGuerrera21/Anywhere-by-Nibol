@@ -44,7 +44,7 @@ http://localhost:3000
 
 
 📂 Struttura del progetto
-`
+```
 root/
 ├── .next/                        # Cartella generata automaticamente da Next.js (build/cache)
 ├── app/                          # Directory principale delle route (Next.js App Router)
@@ -69,8 +69,9 @@ root/
 ├── jsconfig.json               # Configurazione per alias o suggerimenti JS/TS
 ├── next.config.mjs             # Configurazione di Next.js
 ├── package-lock.json           # Lockfile per la gestione delle versioni dei pacchetti
-└── package.json                # File principale delle dipendenze e script del progetto`
+└── package.json                # File principale delle dipendenze e script del progetto
 
+```
 📜 Licenza
 Distribuito con licenza MIT. Vedi LICENSE per maggiori informazioni.
 
